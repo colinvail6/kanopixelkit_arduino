@@ -81,7 +81,7 @@ void setup() {
   // Serial.begin(38400);
   // Serial.println("resetting!");
   delay(3000);
-  FastLED.addLeds<WS2811,2,RGB>(leds,NUM_LEDS);
+  FastLED.addLeds<WS2812B,4,GRB>(leds,NUM_LEDS);
   FastLED.setBrightness(96);
 
   // Initialize our coordinates to some random values
